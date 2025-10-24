@@ -97,7 +97,7 @@ def generate_jwt_token(uid: str, password: str):
             "lockRegion": msg.get("lockRegion", ""),
             "notiRegion": msg.get("notiRegion", ""),
             "serverUrl": msg.get("serverUrl", ""),
-            "token": msg.get('token', '')"
+            "token": msg.get("token", "")
         }
 
         return response_data
